@@ -1,0 +1,2 @@
+position_id,option_type,strike_price,quantity,valuation_price,intrinsic_value,economic_consistency_flag,liquidity_flag,market_match_status,total_adjustment,funding_adjustment,fva_adjusted_market_value
+POS006,PE,25000,100,826.0,909.1500000000016,PRICE_BELOW_INTRINSIC,NORMAL_LIQUIDITY,MATCHED,62.5,79.1455479452055,82458.35445205479
