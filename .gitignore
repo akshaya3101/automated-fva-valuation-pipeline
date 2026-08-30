@@ -3,12 +3,6 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
-env/
-
-.vscode/
-.idea/
-
+.env
 *.log
-
-.DS_Store
-Thumbs.db
+.vscode/
