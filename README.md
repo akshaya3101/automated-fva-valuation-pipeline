@@ -1,3 +1,5 @@
+[![CI](https://github.com/akshaya3101/automated-fva-valuation-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/akshaya3101/automated-fva-valuation-pipeline/actions/workflows/ci.yml)
+
 # Automated FVA Valuation Pipeline
 
 An end-to-end Python pipeline for valuing an internal derivatives portfolio using market data from an NSE NIFTY option-chain snapshot.
