@@ -61,3 +61,11 @@ Portfolio Reporting
         |
         v
     Exceptions
+
+---
+
+## 3. Pipeline Architecture
+
+![Automated FVA Valuation Pipeline Architecture](docs/architecture.png)
+
+The architecture separates market-data processing, valuation, adjustments, funding, and reporting into independently testable stages.
