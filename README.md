@@ -353,7 +353,8 @@ automated-fva-valuation-pipeline/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-7. How to Run
+
+## 7. How to Run
 Install Dependencies
 pip install -r requirements.txt
 Run the Complete Pipeline
@@ -392,10 +393,9 @@ python src/valuation.py
 python src/adjustments.py
 python src/funding.py
 python src/reporting.py
-8. Outputs
 
+## 8. Outputs
 The primary outputs are:
-
 Output	Description
 position_market_matches.csv	Internal positions matched to market observations
 position_valuation.csv	Position-level market, intrinsic and time value
@@ -404,7 +404,8 @@ position_fva_valuation.csv	Final FVA-adjusted position values
 fva_portfolio_summary.csv	Portfolio-level valuation reconciliation
 fva_position_report.csv	Concise position-level report
 fva_exceptions.csv	Positions requiring review
-9. Technology Stack
+
+## 9. Technology Stack
 Python 3.11
 Pandas — data processing and transformation
 Pytest — automated testing
@@ -412,8 +413,8 @@ SQL — schema and analytical query layer
 YAML — configuration
 Git / GitHub — version control
 PowerShell — local execution and automation
-10. Key Design Principles
 
+## 10. Key Design Principles
 The pipeline follows several design principles:
 
 Modular processing — each valuation stage is implemented independently.
